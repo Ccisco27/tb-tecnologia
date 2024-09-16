@@ -4,6 +4,7 @@ header{
     height: 200px;
     align-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .passo {
@@ -12,6 +13,9 @@ header{
 }
 .passo.ativo {
     display:block;
+    background-color: black;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 body {
@@ -30,5 +34,8 @@ body {
     font-size: 20px;
 }
 .elden {
+    font-size: 20px;
+}
+.delta {
     font-size: 20px;
 }
